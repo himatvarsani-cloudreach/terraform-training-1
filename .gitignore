@@ -1,7 +1,8 @@
+.terraform.lock.hcl
 # Local .terraform directories
 **/.terraform/*
 
-# .tfstate files
+# .tfstate files that I do not want
 *.tfstate
 *.tfstate.*
 
