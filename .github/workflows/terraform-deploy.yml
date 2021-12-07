@@ -1,0 +1,8 @@
+name: Terraform deployment with Github Actions
+on: [push]
+jobs:
+  terraform-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test step
+        run: echo "Hello World"
